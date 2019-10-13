@@ -1,0 +1,4 @@
+result-view {
+  match: Results(this)
+  message ("title : #{value(this.Title)}\nLprice: #{value(this.Lprice)} ")
+}

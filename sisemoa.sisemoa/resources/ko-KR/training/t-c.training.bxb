@@ -1,0 +1,5 @@
+train (t-cfq0bjg66qkvrc1argbj5isuz) {
+  utterance ("[g:httpCall] 테스트 {[g:title] (아이패드)[v:title]}")
+  plan (Y2BhEC/OLE7NzU/Ug9FBqcWlOSXFDBLoEhklJQXOiTk5DKLoMiWZJTmpuISZGRgZmIAkA5hmBNI8QAwTBZIA)
+  last-modified (1570959214866)
+}

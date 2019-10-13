@@ -1,3 +1,3 @@
-integer (lprice) {
+text (lprice) {
   description (__DESCRIPTION__)
 }
