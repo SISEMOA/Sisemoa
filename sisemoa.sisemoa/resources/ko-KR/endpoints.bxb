@@ -1,0 +1,9 @@
+endpoints {
+  action-endpoints {
+   
+    action-endpoint (httpCall) {
+    accepted-inputs (Title)
+    local-endpoint (httpCall.js)
+    }
+   }
+  }

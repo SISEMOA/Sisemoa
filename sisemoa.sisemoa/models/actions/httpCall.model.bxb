@@ -1,0 +1,13 @@
+action (httpCall) {
+ description (http call action)
+  type(Constructor)
+
+  collect{
+    input(Title){
+      type(title)
+      min(Required) max(One)
+    }
+  }
+  
+  output (Results)
+}

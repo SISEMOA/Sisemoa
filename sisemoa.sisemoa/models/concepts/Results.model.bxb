@@ -1,0 +1,10 @@
+structure (Results) {
+  property (Title) {
+    type (title)
+    min (Required) max (One)
+  }
+   property (Lprice) {
+    type (lprice)
+    min (Required) max (One)
+  }
+}

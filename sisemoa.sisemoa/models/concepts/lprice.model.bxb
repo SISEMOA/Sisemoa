@@ -1,0 +1,3 @@
+integer (lprice) {
+  description (__DESCRIPTION__)
+}
