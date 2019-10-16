@@ -1,0 +1,19 @@
+structure (Results) {
+  description (상품의 정보)
+  property (name) {
+    type (Name)
+    min (Optional) max (Many)
+  }
+  property (price) {
+    type (Price)
+    min (Optional) 
+  }
+  property (iimage) {
+    type (Image)
+    min (Optional) 
+  }
+  property (link) {
+    type (Link)
+    min (Optional) 
+  }
+}

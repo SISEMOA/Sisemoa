@@ -1,0 +1,10 @@
+action (SearchGoods) {
+  description (상품을 찾아낸다)
+  collect {
+    input (nname) {
+      type (Name)
+      min (Required) max (One)
+    }
+  }
+  output (Results)
+}
