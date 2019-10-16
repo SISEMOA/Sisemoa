@@ -4,10 +4,10 @@ var http = require('http');
 module.exports.function = function SearchGoods(nname) {
 
   var base_url = 'https://openapi.naver.com/v1/search/shop';
-  var NAVER_CLIENT_ID = 'hIAsGBmDzarXv5spV0Iw'
-  var NAVER_CLIENT_SECRET = 'TCWfGz9TyM'
+  var NAVER_CLIENT_ID = 'hIAsGBmDzarXv5spV0Iw';
+  var NAVER_CLIENT_SECRET = 'TCWfGz9TyM';
 
-  var result = [];
+
   console.log("name : " +nname); // title is undefined always
   let options = {
     format: 'json',
@@ -21,12 +21,19 @@ module.exports.function = function SearchGoods(nname) {
   };
   var response = http.getUrl(base_url,options);
   // result = http.getUrl(base_url, options);
-   console.log(response.items);
+  var result=[];
+  var goods= new Object();
 
-  return {
-    name: response.items.title,
-    price: response.items.lprice,
-    iimage: response.items.image,
-    link:response.items.link
+  for(var i=0;i<10;i++)
+  {
+    goods={
+    name:response.items[i].title,
+    price:response.items[i].lprice,
+    iimage:response.items[i].image,
+    link:response.items[i].link
+    }
+    result.push(goods);
   }
+  console.log(result);
+  return result;
 }
