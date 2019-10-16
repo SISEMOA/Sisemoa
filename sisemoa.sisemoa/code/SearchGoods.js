@@ -24,9 +24,9 @@ module.exports.function = function SearchGoods(nname) {
    console.log(response.items);
 
   return {
-    name: response.items[0].title,
-    price: response.items[0].lprice,
-    iimage: response.items[0].image,
-    link:response.items[0].link
+    name: response.items.title,
+    price: response.items.lprice,
+    iimage: response.items.image,
+    link:response.items.link
   }
 }
