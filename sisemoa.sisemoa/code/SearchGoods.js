@@ -39,15 +39,32 @@ module.exports.function = function SearchGoods(nname) {
         idx=j+1;
       }
     }
+    //lprice 쉼표 표시
+    var tmpprice=""; var finalprice="";
+    tmpprice=response.items[i].lprice
+    finalprice = tmpprice.replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,');
+
     console.log(tmpname);
     goods={
     name:tmpname,
-    price:response.items[i].lprice+"원",
+    price:finalprice+"원",
     iimage:response.items[i].image,
     link:response.items[i].link
     }
     result.push(goods);
   }
-  console.log(result);
+  //가격 내림차순으로 sorting
+    result.sort(function(a,b){
+      if(a.price.length==b.price.length){
+        return a.price < b.price ? -1 : a.price > b.price ? 1 : 0;
+      }
+      else if(a.price.length>b.price.length){
+        return 1;
+      }
+      else{
+        return -1;
+      }
+  });
+  console.log(nname);
   return result;
 }

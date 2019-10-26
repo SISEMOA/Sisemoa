@@ -1,0 +1,6 @@
+train (t-ziikiwmaqj3agm95ok8y9c92d) {
+  utterance ("[g:SearchGoods] (갤럭시 버즈)[v:viv.core.ContactAddressName] 가격 알려줘")
+  plan (Y2BhEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakM0mWZZXrJ+UWpes75eSWJySWOKSlFqcXFYEkmBkYgZgCSjAwgAOIzMzAAAA==)
+  enabled (false)
+  last-modified (1572099362875)
+}
