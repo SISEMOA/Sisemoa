@@ -14,7 +14,7 @@ result-view {
            expression(name)
           }
         }
-        }
+       }
       }
     }  
 } 

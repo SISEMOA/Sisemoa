@@ -26,9 +26,23 @@ module.exports.function = function SearchGoods(nname) {
 
   for(var i=0;i<10;i++)
   {
+    var qname = response.items[i].title;
+    var idx=0;
+    var tmp=""; var tmpname = "";
+    //<b> </b>를 지우는 함수
+    for(var j=0 ;j<qname.length ;j++){
+      if(qname[j]=='<' || j==qname.length - 1){
+        tmp=qname.slice(idx,j);
+        tmpname+=tmp;
+      }
+      if(qname[j]=='>'){
+        idx=j+1;
+      }
+    }
+    console.log(tmpname);
     goods={
-    name:response.items[i].title,
-    price:response.items[i].lprice,
+    name:tmpname,
+    price:response.items[i].lprice+"원",
     iimage:response.items[i].image,
     link:response.items[i].link
     }
