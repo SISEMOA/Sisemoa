@@ -1,0 +1,20 @@
+result-view {
+  match : Results(this){
+    min (Required) max (Many)
+  }
+
+   message (
+     "해당 결과를 확인해보세요"
+   )
+    render{
+      list-of(this){
+       where-each (name) {
+        layout-macro (goods-cards){
+          param(results){
+           expression(name)
+          }
+        }
+       }
+      }
+    }  
+} 

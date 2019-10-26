@@ -1,0 +1,25 @@
+layout-macro-def (goods-cards) {
+  params {
+    param (results) {
+      type (Results)
+      min (Required) max (One)
+    }
+  }
+  content {
+    cell-card {
+    slot1 {
+        image {
+            url ("[#{value(results.iimage)}]")
+            shape (Square)
+        }
+    }
+    slot2 {
+        content {
+            order (PrimarySecondary)
+            primary ("#{value(results.name)}") 
+            secondary ("#{value(results.price)}") 
+        }
+    }
+ }
+ }
+}
