@@ -29,22 +29,29 @@ module.exports.function = function SearchGoods(nname) {
     var qname = response.items[i].title;
     var idx=0;
     var tmp=""; var tmpname = "";
+    console.log(qname);
     //<b> </b>를 지우는 함수
-    for(var j=0 ;j<qname.length ;j++){
-      if(qname[j]=='<' || j==qname.length - 1){
+    for(var j=0;j<=qname.length;j++){
+      if(qname[j]=='<'){
+        tmp=qname.slice(idx,j);
+        tmpname+=tmp;
+        j+=3;
+        idx=j;
+      }
+      if(qname[j]=='>'){
+        j+=1;
+        idx=j;
+      }
+      if(j==qname.length){
         tmp=qname.slice(idx,j);
         tmpname+=tmp;
       }
-      if(qname[j]=='>'){
-        idx=j+1;
-      }
     }
+    console.log(tmpname);
     //lprice 쉼표 표시
     var tmpprice=""; var finalprice="";
     tmpprice=response.items[i].lprice
     finalprice = tmpprice.replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,');
-
-    console.log(tmpname);
     goods={
     name:tmpname,
     price:finalprice+"원",

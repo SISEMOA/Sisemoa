@@ -20,6 +20,8 @@ layout-macro-def (goods-cards) {
                     }
                 }
             }
+            
+            
         }
         single-line {
             text {
@@ -35,13 +37,9 @@ layout-macro-def (goods-cards) {
             }
             style (Detail_L)
         }
-     }
-     on-click{
-       intent{
-         goal : SearchGoods
-         value : Name(self.name)
-       }
+        
      }
     }
+    
   }
 }
