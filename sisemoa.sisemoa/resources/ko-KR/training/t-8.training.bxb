@@ -1,0 +1,10 @@
+train (t-88fcf88apstzmt087arf4jicu) {
+  utterance ("[g:SearchGoods] (물티슈)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572168751641)
+}
+train (t-8x0m71pli859o77bxjgx54ft8) {
+  utterance ("[g:SearchGoods] (칠성 사이다)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572168610647)
+}

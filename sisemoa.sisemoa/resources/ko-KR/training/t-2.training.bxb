@@ -1,0 +1,10 @@
+train (t-256axroxp5jf9nrw12gzmi5pk) {
+  utterance ("[g:SearchGoods] (무선 충전기)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572168848110)
+}
+train (t-2drhginto5i33mlp3rykbbduw) {
+  utterance ("[g:SearchGoods] (에이포 용지)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572169970749)
+}

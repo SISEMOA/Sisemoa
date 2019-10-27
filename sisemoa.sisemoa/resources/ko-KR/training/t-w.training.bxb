@@ -1,0 +1,10 @@
+train (t-w9py8a2rkow93fgmynfevr1z5) {
+  utterance ("[g:SearchGoods] (생수)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572167809209)
+}
+train (t-wy9w7aho43jdn2h7oer29ykoa) {
+  utterance ("[g:SearchGoods] (귤)[v:Name] 가격 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572168960042)
+}

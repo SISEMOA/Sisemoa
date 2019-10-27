@@ -1,0 +1,5 @@
+train (t-p192w59lwn6r5tar2y4bgdtny) {
+  utterance ("[g:SearchGoods] (공책)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572169313060)
+}

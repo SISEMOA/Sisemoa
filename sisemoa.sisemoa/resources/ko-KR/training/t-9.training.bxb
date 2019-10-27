@@ -1,0 +1,10 @@
+train (t-9ldbk3xszdd5wvkxmupbni82v) {
+  utterance ("[g:SearchGoods] (펩시 콜라)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572168517714)
+}
+train (t-9wtg7fwou5omar053z3mm74xh) {
+  utterance ("[g:SearchGoods] (사이다)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572168579586)
+}

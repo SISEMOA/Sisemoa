@@ -1,0 +1,10 @@
+train (t-xnotdkna61o1klh1r73lwqzf9) {
+  utterance ("[g:SearchGoods] (배개)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572169389792)
+}
+train (t-xz4iztvltpbna0vyokfdj0nyc) {
+  utterance ("[g:SearchGoods] (수건)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572169897021)
+}

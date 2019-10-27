@@ -1,0 +1,10 @@
+train (t-yha0xynea4vfok609enjj6atw) {
+  utterance ("[g:SearchGoods] (세제)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572168404718)
+}
+train (t-ymtky7ougyn41sxgclgoe0gtu) {
+  utterance ("[g:SearchGoods] (캐리어)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572170069642)
+}

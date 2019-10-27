@@ -1,0 +1,5 @@
+train (t-d4tn2xnugferpll99pqsbrj0g) {
+  utterance ("[g:SearchGoods] (키보드)[v:Name] 얼마야?")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572167556089)
+}

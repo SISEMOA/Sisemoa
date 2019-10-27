@@ -1,0 +1,5 @@
+train (t-abq24cdqcwvb0ds4svrmd06z7) {
+  utterance ("[g:SearchGoods] (무선 충전기)[v:Name] 얼마야")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572170978493)
+}
