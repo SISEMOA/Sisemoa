@@ -6,17 +6,5 @@ action (SearchGoods) {
       min (Required) max (One)
     }
   }
-  output (Results){
-    throws{
-      error(ErrorNoGoods){
-        on-catch{
-          halt{
-            dialog{
-              template("상품이 존재하지 않습니다.")
-            }
-          }
-        }
-      }
-    }
-  }
+  output (Results)
 }

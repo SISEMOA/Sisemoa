@@ -7,14 +7,27 @@ result-view {
      "해당 결과를 확인해보세요"
    )
     render{
-      list-of(this){
-       where-each (name) {
-        layout-macro (goods-cards){
-          param(results){
-           expression(name)
+      layout{
+        section{
+          content{
+            for-each (this){
+              as(this){
+                layout-macro (goods-cards){
+                  param(results){
+                   expression(this)
+                }
+                
+              }
+              attribution-link {
+               label {
+                template ("바로가기")
+               }
+               url ("#{value(this.link)}")
+             }
+            }
           }
         }
-       }
       }
-    }  
+     }  
+    }
 } 
