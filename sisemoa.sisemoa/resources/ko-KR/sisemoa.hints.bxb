@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (갤럭시 탭 가격 알려줘)
+    utterance (갤럭시 탭 얼마야)
+    utterance (갤럭시 탭 시세 알려줘)
+  }
+}

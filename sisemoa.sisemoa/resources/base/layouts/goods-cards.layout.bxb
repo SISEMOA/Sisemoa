@@ -6,40 +6,20 @@ layout-macro-def (goods-cards) {
     }
   }
   content {
-    compound-card {
-     content {
-        image-card {
-            aspect-ratio (1:1)
-            image-url ("[#{value(results.iimage)}]")
-            title-area {
-                halign (Start)
-                slot1 {
-                    text {
-                    value ("")
-                    style (Title_M)
-                    }
-                }
-            }
-            
-            
+    cell-card {
+    slot1 {
+        image {
+            url ("[#{value(results.iimage)}]")
+            shape (Square)
         }
-        single-line {
-            text {
-                value {
-                    template ("#{value(results.name)}") 
-                }
-                style (Title_XS)
-            }
-        }
-        paragraph {
-            value {
-            template ("#{value(results.price)}")
-            }
-            style (Detail_L)
-        }
-        
-     }
     }
-    
-  }
+    slot2 {
+        content {
+            order (PrimarySecondary)
+            primary ("#{value(results.name)}") 
+            secondary ("#{value(results.price)}") 
+        }
+    }
+ }
+ }
 }
