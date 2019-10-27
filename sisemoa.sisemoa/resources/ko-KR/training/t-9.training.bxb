@@ -1,3 +1,8 @@
+train (t-9kvvqq9famjks410azg838j0j) {
+  utterance ("[g:SearchGoods] (애플 노트북)[v:Name] 얼마야?")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572180227713)
+}
 train (t-9ldbk3xszdd5wvkxmupbni82v) {
   utterance ("[g:SearchGoods] (펩시 콜라)[v:Name] 얼마야")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)

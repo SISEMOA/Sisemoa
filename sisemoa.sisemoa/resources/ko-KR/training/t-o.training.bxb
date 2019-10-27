@@ -3,13 +3,13 @@ train (t-ocwiph6wg9gvsrk9m9yfzp254) {
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1572169418363)
 }
-train (t-oklgymp9fvp26ozf1fnuwzwrr) {
-  utterance ("[g:SearchGoods] 테스트 (아이패드)[v:Name]")
-  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1570963116716)
-}
 train (t-os8u0ev4bn304ux063asvjmuk) {
   utterance ("[g:SearchGoods] (물티슈)[v:Name] 얼마야")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1572171041826)
+}
+train (t-oxgqwf8gn5z84ffic43obefwv) {
+  utterance ("[g:SearchGoods] (헤드폰)[v:Name] 얼마인지 알려줘")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572180122003)
 }
