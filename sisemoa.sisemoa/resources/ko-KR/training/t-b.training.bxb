@@ -1,5 +1,5 @@
-train (t-b4uehadnaaylofdnxb84ye2zk) {
-  utterance ("[g:SearchGoods] (아이패드)[v:Name] 가격 알려줘")
+train (t-boel28iaxrz6ejc8qd7qcwmrw) {
+  utterance ("[g:SearchGoods] (트와이스 미니 앨범)[v:Name] 가격 알려줘")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572158503368)
+  last-modified (1572185871753)
 }

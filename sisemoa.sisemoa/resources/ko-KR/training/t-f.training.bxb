@@ -1,0 +1,5 @@
+train (t-f579rtub0emd49ucptskhew8h) {
+  utterance ("[g:SearchGoods] (트와이스 미니 앨범)[v:Name] 가격 얼마인지 알려줘")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572186731496)
+}

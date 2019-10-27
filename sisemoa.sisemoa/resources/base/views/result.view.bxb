@@ -20,7 +20,7 @@ result-view {
               }
               attribution-link {
                label {
-                template ("바로가기")
+                template ("구매 링크 바로가기")
                }
                url ("#{value(this.link)}")
              }

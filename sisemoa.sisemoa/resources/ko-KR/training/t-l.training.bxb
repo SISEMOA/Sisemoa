@@ -1,0 +1,10 @@
+train (t-lesf78ufwv5akepp8922qdnx5) {
+  utterance ("[g:SearchGoods] (트와이스 미니 앨범)[v:Name] 얼마야?")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572185872481)
+}
+train (t-lv082arkc3f7ms794fryrjrrh) {
+  utterance ("[g:SearchGoods] (사과)[v:Name] 시세 궁금해")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572183724095)
+}

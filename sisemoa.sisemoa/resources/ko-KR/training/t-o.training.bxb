@@ -1,12 +1,7 @@
-train (t-ocwiph6wg9gvsrk9m9yfzp254) {
-  utterance ("[g:SearchGoods] (침대)[v:Name] 얼마야")
+train (t-o8u934jghdbu0hh1ns1d12u1f) {
+  utterance ("[g:SearchGoods] (젊은 베르테르의 슬픔)[v:Name] 얼마인지 알려줘")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572169418363)
-}
-train (t-os8u0ev4bn304ux063asvjmuk) {
-  utterance ("[g:SearchGoods] (물티슈)[v:Name] 얼마야")
-  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572171041826)
+  last-modified (1572185162729)
 }
 train (t-oxgqwf8gn5z84ffic43obefwv) {
   utterance ("[g:SearchGoods] (헤드폰)[v:Name] 얼마인지 알려줘")

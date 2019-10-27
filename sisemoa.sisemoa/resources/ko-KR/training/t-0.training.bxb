@@ -1,0 +1,10 @@
+train (t-01b5a676w2a6qpzvtpyeffo65) {
+  utterance ("[g:SearchGoods] (젊은 베르테르의 슬픔)[v:Name] 시세 알려줘")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572185303945)
+}
+train (t-0yv2j6icfblt5gnigdanyh0f9) {
+  utterance ("[g:SearchGoods] (갤럭시 탭)[v:Name] 시세 알려줘")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572183607171)
+}

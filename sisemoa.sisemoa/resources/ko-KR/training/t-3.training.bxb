@@ -1,5 +1,5 @@
-train (t-3vz97bhulstafns5r42yqoii2) {
-  utterance ("[g:SearchGoods] (딸기)[v:Name] 얼마야")
+train (t-3luq540ua6ccjyy523eyui4r4) {
+  utterance ("[g:SearchGoods] (트와이스 미니 앨범)[v:Name] 시세 알려줘")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572168354758)
+  last-modified (1572185871241)
 }

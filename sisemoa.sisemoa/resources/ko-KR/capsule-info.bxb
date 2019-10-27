@@ -1,7 +1,7 @@
 capsule-info {
   display-name (시세모아)
   developer-name (Sisemoa)
-  icon-asset (icon.png)
+  icon-asset (/images/logo.png)
   description ("가격이 궁금한 상품의 최저가를 검색해 보세요")
   search-keywords{
     keyword(가격)

@@ -1,0 +1,5 @@
+train (t-s4nfbz5bct4h5fwrlee69ija2) {
+  utterance ("[g:SearchGoods] (갤럭시 탭)[v:Name] 가격 얼마인지 알려줘")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572186680850)
+}

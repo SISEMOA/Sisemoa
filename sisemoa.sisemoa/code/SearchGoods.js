@@ -30,6 +30,7 @@ module.exports.function = function SearchGoods(nname) {
   }
   
   //상품 정보를 받아온다
+  //상품의 종류가 10개 이상인 경우
   if(response.total>=10){
     for(var i=0;i<10;i++){
       var qname = response.items[i].title;
@@ -60,6 +61,7 @@ module.exports.function = function SearchGoods(nname) {
     result.push(goods);
    }
   }
+    //상품의 종류가 10개 미만인 경우
   else{
     for(var i=0;i<response.total;i++){
       var qname = response.items[i].title;

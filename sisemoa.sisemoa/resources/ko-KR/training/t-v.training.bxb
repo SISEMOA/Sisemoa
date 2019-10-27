@@ -1,0 +1,5 @@
+train (t-vqrgo82kbwo0m4xjj27acpm2y) {
+  utterance ("[g:SearchGoods] (갤럭시 버즈)[v:Name] 시세가 궁금해")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572183694964)
+}
