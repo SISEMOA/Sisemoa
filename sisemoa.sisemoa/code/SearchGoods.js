@@ -1,5 +1,6 @@
 var console = require('console');
 var http = require('http');
+var fail = require('fail');
 
 module.exports.function = function SearchGoods(nname) {
 
@@ -8,7 +9,6 @@ module.exports.function = function SearchGoods(nname) {
   var NAVER_CLIENT_SECRET = 'TCWfGz9TyM';
 
 
-  console.log("name : " +nname); // title is undefined always
   let options = {
     format: 'json',
     headers: {
@@ -16,42 +16,41 @@ module.exports.function = function SearchGoods(nname) {
       'X-Naver-Client-Secret': NAVER_CLIENT_SECRET
     },
     query: {
-      query : nname //Todo : replace this value using the parameter
+      query : nname 
     }
   };
+  //api 호출
   var response = http.getUrl(base_url,options);
-  // result = http.getUrl(base_url, options);
   var result=[];
   var goods= new Object();
-
-  for(var i=0;i<10;i++)
-  {
-    var qname = response.items[i].title;
-    var idx=0;
-    var tmp=""; var tmpname = "";
-    console.log(qname);
-    //<b> </b>를 지우는 함수
-    for(var j=0;j<=qname.length;j++){
-      if(qname[j]=='<'){
+  // 상품이 존재하지 않을 때의 Error 처리
+  if(response.total==0){
+    throw fail.checkedError('상품이 존재하지 않습니다','ErrorNoGoods',{});
+    return 'Error';
+  }
+  
+  //상품 정보를 받아온다
+  if(response.total>=10){
+    for(var i=0;i<10;i++){
+      var qname = response.items[i].title;
+      var idx=0;
+      var tmp=""; var tmpname = "";
+      //<b> </b>를 지우는 함수
+    for(var j=0 ;j<qname.length ;j++){
+      if(qname[j]=='<' || j==qname.length - 1){
         tmp=qname.slice(idx,j);
         tmpname+=tmp;
-        j+=3;
-        idx=j;
       }
       if(qname[j]=='>'){
-        j+=1;
-        idx=j;
-      }
-      if(j==qname.length){
-        tmp=qname.slice(idx,j);
-        tmpname+=tmp;
+        idx=j+1;
       }
     }
-    console.log(tmpname);
-    //lprice 쉼표 표시
+
+    //lprice의 쉼표 표시
     var tmpprice=""; var finalprice="";
     tmpprice=response.items[i].lprice
     finalprice = tmpprice.replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,');
+
     goods={
     name:tmpname,
     price:finalprice+"원",
@@ -59,19 +58,37 @@ module.exports.function = function SearchGoods(nname) {
     link:response.items[i].link
     }
     result.push(goods);
+   }
   }
-  //가격 내림차순으로 sorting
-    result.sort(function(a,b){
-      if(a.price.length==b.price.length){
-        return a.price < b.price ? -1 : a.price > b.price ? 1 : 0;
+  else{
+    for(var i=0;i<response.total;i++){
+      var qname = response.items[i].title;
+      var idx=0;
+      var tmp=""; var tmpname = "";
+      //<b> </b>를 지우는 함수
+    for(var j=0 ;j<qname.length ;j++){
+      if(qname[j]=='<' || j==qname.length - 1){
+        tmp=qname.slice(idx,j);
+        tmpname+=tmp;
       }
-      else if(a.price.length>b.price.length){
-        return 1;
+      if(qname[j]=='>'){
+        idx=j+1;
       }
-      else{
-        return -1;
-      }
-  });
-  console.log(nname);
+    }
+
+    //lprice의 쉼표 표시
+    var tmpprice=""; var finalprice="";
+    tmpprice=response.items[i].lprice
+    finalprice = tmpprice.replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,');
+
+    goods={
+    name:tmpname,
+    price:finalprice+"원",
+    iimage:response.items[i].image,
+    link:response.items[i].link
+    }
+    result.push(goods);
+   }
+  }
   return result;
 }

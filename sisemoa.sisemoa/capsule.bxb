@@ -3,7 +3,6 @@ capsule {
   version (0.1.0)
   format (3)
   targets {
-    target (bixby-mobile-en-US) {enabled (false)}
     target (bixby-mobile-ko-KR)
   }
   runtime-flags {
@@ -13,5 +12,8 @@ capsule {
     no-filtering-with-validation
     modern-default-view-behavior
     use-input-views-for-selection-list-detail
+  }
+  store-sections{
+    section (Shopping)
   }
 }
