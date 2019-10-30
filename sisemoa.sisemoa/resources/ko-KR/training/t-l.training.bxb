@@ -8,3 +8,8 @@ train (t-lv082arkc3f7ms794fryrjrrh) {
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1572183724095)
 }
+train (t-lzm7nnjrucbn4250hoddk6s0y) {
+  utterance ("[g:SearchGoods] (메론)[v:Name] 가격은 어떻게 돼?")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572425834994)
+}

@@ -3,6 +3,11 @@ train (t-90td3wienda30ehfq2rkge3du) {
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1572185442574)
 }
+train (t-9gtaq4ri10iwgq7uohbkzsv7a) {
+  utterance ("[g:SearchGoods] (메론)[v:Name]은?")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572425961167)
+}
 train (t-9laoo863dqld3qwxmv28z6sz4) {
   utterance ("[g:SearchGoods] (사과)[v:Name] 시세 알려줘")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)

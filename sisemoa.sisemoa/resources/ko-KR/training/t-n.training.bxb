@@ -1,0 +1,5 @@
+train (t-n7r5v9mb29rjjb4kbbjj1kcbb) {
+  utterance ("[g:SearchGoods] (메론)[v:Name] 알려줘")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572426032362)
+}

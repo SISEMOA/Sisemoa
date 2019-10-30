@@ -3,3 +3,8 @@ train (t-cfbpe5qd4dbr0bvi7d91a11uf) {
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1572169108022)
 }
+train (t-cguied44j0y1o2x4fat057dv0) {
+  utterance ("[g:SearchGoods] (딸기잼)[v:Name] 요즘 얼마나 해?")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572425761471)
+}
