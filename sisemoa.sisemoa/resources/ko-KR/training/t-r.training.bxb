@@ -1,5 +1,5 @@
-train (t-rpqgtnjlcnjcd2718mlaat823) {
-  utterance ("[g:SearchGoods] (냉장고)[v:Name] 얼마야")
+train (t-rme7nn4rkrt6howw8ea99mepi) {
+  utterance ("[g:SearchGoods] (갤럭시 탭)[v:Name] 지금 가격이 얼마야")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572169815660)
+  last-modified (1572188824033)
 }

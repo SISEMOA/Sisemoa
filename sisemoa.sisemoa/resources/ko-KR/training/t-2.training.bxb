@@ -8,6 +8,11 @@ train (t-2drhginto5i33mlp3rykbbduw) {
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1572169970749)
 }
+train (t-2ncb9toydjgv0hmsl6hwb9zjv) {
+  utterance ("[g:SearchGoods] (사과)[v:Name] 요새 얼마지")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572188563917)
+}
 train (t-2wwy3mb4z7k4l0lnz9e0xnz41) {
   utterance ("[g:SearchGoods] (갤럭시 탭)[v:Name] 얼마인지 알려줘")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)

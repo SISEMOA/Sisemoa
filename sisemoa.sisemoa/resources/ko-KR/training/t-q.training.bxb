@@ -3,6 +3,11 @@ train (t-q2qjtoub48p6mnqyww5dzee9k) {
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1572186742384)
 }
+train (t-qjd6sxljmdazcaw00l1jtjg8y) {
+  utterance ("[g:SearchGoods] (갤럭시 탭)[v:Name] 요새 얼마해")
+  plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572188456675)
+}
 train (t-qum9hsop6tafdygxa2aeis0hk) {
   utterance ("[g:SearchGoods] (무선 충전기)[v:Name] 가격 알려줘")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)

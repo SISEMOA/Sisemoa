@@ -1,10 +1,10 @@
-train (t-yha0xynea4vfok609enjj6atw) {
-  utterance ("[g:SearchGoods] (세제)[v:Name] 얼마야")
+train (t-yq1i6h4yhbhcbql0v24hrkhzt) {
+  utterance ("[g:SearchGoods] (갤럭시 탭)[v:Name] 요즘 얼만지 알려줘")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572168404718)
+  last-modified (1572188886034)
 }
-train (t-ymtky7ougyn41sxgclgoe0gtu) {
-  utterance ("[g:SearchGoods] (캐리어)[v:Name] 얼마야")
+train (t-ywy2w2x5svuxzxqfilevaf3eo) {
+  utterance ("[g:SearchGoods] (젊은 베르테르의 슬픔)[v:Name] 요새 얼마야")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572170069642)
+  last-modified (1572188765736)
 }

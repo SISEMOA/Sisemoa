@@ -1,5 +1,5 @@
-train (t-mu22ji276q2d2059glwt35ml0) {
-  utterance ("[g:SearchGoods] (장롱)[v:Name] 얼마야")
+train (t-mb6qfp1sq059ikiwdd2nfey4m) {
+  utterance ("[g:SearchGoods] (젊은 베르테르의 슬픔)[v:Name] 요즘 얼마해")
   plan (Y2BmEC/OLE7NzU/Ug9FBqcWlOSXFDNLoEsGpiUXJGe75+SnFDCLokn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572169727022)
+  last-modified (1572188600038)
 }
